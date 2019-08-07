@@ -7,18 +7,18 @@
 
 - Operator is symbol to perform any operation 
  - Arithematic operators
-    +, - , %, *, /, ** (exponential)
+    - +, - , %, *, /, ** (exponential)
  - Assignemnt operator (short hand operators)
-     = , +=, -=, *=, /=, ==, ===
+    - = , +=, -=, *=, /=, ==, ===
     Ex: var a = 10, b = '10'
-     IF (a == b) --> True
-     IF (a === b) --> False
+     - IF (a == b) --> True
+     - IF (a === b) --> False
  - Logical Operators
-    &&, ||, !
+     - &&, ||, !
  - Incrment / Decrement Operator
-   ++, --  
+     - ++, --  
  - Conditional / Ternary operator
-   ? , :
+     - ? , :
 
 - typeof () : used to identify the data type of variable.
 - Expression : is a combination of both operators and operands.
@@ -34,7 +34,7 @@
    - Methods in arrays
      push(), pop(), join(), shift(), unshift(), length(), splice(), concat(), toString()
 
-- String:is a Zero or more characters written inside codes {'' or ""}
+- String:is a Zero or more characters written inside codes  {' ' or " "}
     - Methods in string
       length(), indexOf(), search(), toUpperCase(), toLowerCase(), split(), join() etc .,
 
