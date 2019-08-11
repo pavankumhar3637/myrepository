@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- JS Variables-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment-Even-number</title>
+</head>
+<body>
+<form>
+    <h4>
+        Enter Number A: <input type = "number" id="num1"/><br>
+    </h4>
+        <input type ="button" onclick="checkNum(num1)", value="Type of Number"/>
+    <p id="result"></p>
+</form>
+<script>
+function checkNum() 
+{
+  numb1 = document.getElementById("num1").value;
+  
+if (numb1 == 0)
+   document.getElementById("result").innerHTML = "Entered number "+numb1+" is ZERO";
+else  if (numb1 % 2 === 0) 
+   document.getElementById("result").innerHTML = "Entered number "+numb1+" is Even";
+else 
+   document.getElementById("result").innerHTML = "Entered number "+numb1+" is Odd";   
+}
+</script>
+</body>
+</html>

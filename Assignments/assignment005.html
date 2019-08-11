@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- JS Variables-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment-Area of Square</title>
+</head>
+<body>
+<form>
+    <h4>
+        Enter Side of Square: <input type = "number" id="num1"/><br>
+    </h4>
+        <input type ="button" onclick="area(num1)", value="Area of Square"/>
+    <p id="result"></p>
+</form>
+<script>
+function area() 
+{
+numb1 = document.getElementById("num1").value;
+document.getElementById("result").innerHTML = "Area of Square: "+numb1**2; 
+}
+</script>
+</body>
+</html>

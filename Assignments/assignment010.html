@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- JS Variables-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment-get file extension</title>
+</head>
+<body>
+        <form>
+            <h4>
+            Enter file: <input type = "text" id="extn"/><br>
+            </h4>
+            <input type ="button" onclick="getExtension(extn)", value="Click to get Xtension"/>
+            <p id="result"></p>
+        </form>
+
+        <script>
+            function getExtension() 
+            {
+            f1 = document.getElementById("extn").value;
+            document.getElementById("result").innerHTML ="The Extesnion of file ''"+f1+"'' is: "+f1.split('.').pop();
+            }
+        </script>
+</body>
+</html>

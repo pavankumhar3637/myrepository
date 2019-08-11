@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- JS Variables-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment-Case-Conv-string</title>
+</head>
+<body>
+<!--var str = "PavaN";
+
+var str = window.prompt("Enter a String:");
+document.write("<br>");document.write("<br>");
+document.write("Your input string is : "+str);
+document.write("<br>");document.write("<br>");
+document.write("Your UpperCased string is : "+str.toUpperCase()); -->
+
+<form>
+    <h3>
+        Enter String to convert case: <input type = "text" id="str"/><br>
+    </h3>
+        <input type ="button" onclick="getUppercase(str)", value="Upper-case"/>
+        <input type ="button" onclick="getLowercase(str)", value="Lower-case"/>
+    <p id="result"></p>
+</form>
+<script>
+function getUppercase() 
+{
+  fstr = document.getElementById("str").value;
+  document.getElementById("result").innerHTML = "Uppercase String is: "+fstr.toUpperCase();
+}
+function getLowercase() 
+{
+  fstr = document.getElementById("str").value;
+  document.getElementById("result").innerHTML = "Lowercase String is: "+fstr.toLowerCase();
+}
+</script>
+  
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- JS Variables-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment-leap year</title>
+</head>
+<body>
+<form>
+    <h4>
+        Enter year: <input type = "text" id="year"/><br>
+    </h4>
+        <input type ="button" onclick="leap(year)", value="YearStatus"/>
+    <p id="result"></p>
+</form>
+<script>
+function leap() 
+{
+numb1 = document.getElementById("year").value;
+if ((numb1 % 4 === 0) && (numb1 % 100 > 0) || (numb1 % 400 === 0))
+document.getElementById("result").innerHTML ="Entered Year "+numb1+" is Leap year"; 
+else
+document.getElementById("result").innerHTML ="Entered Year "+numb1+" is Non-Leap year";
+}
+</script>
+</body>
+</html>
