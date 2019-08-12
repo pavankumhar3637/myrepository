@@ -21,7 +21,10 @@ function swap()
 {
   numb1 = document.getElementById("num1").value;
   numb2 = document.getElementById("num2").value;
-  document.getElementById("result").innerHTML = "Swap result A: "+numb2+" B: "+numb1;
+  var c = numb1;
+  numb1 = numb2;
+  numb2 = c;
+  document.getElementById("result").innerHTML = "After Swap A: "+numb1+" B: "+numb2;
 }
 </script>
 </body>
