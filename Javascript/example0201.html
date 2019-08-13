@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>node-ex001-CLASS</title>
+    <script>
+    //parent class
+    class parent
+    {
+        constructor(x){this.x=x;}
+        sayhello = () =>{document.write(`Hello.... ${this.x}!`);}
+    }
+
+    //child class
+    class child extends parent
+    {
+        constructor(x){super(x);}
+        sayhi= () =>{document.write(`Hello.... ${this.x}!`);}
+    }
+    
+    const p = new parent("parent");
+    p.sayhello();
+
+    const c = new child("child");
+    c.sayhello();
+
+    c.sayhi();
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
