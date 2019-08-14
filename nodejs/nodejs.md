@@ -65,8 +65,6 @@ EX: C:\Users\Pawankumhar>node
   
     PS F:\BC\PREQ\myrepository\nodejs> npm install builtin-modules --save
     PS F:\BC\PREQ\myrepository\nodejs> node .\list_Modules.js
-
-
    
   - To install particular module as well as it saves in package.json (dev dependencies)
    - npm install <module> --save -dev
@@ -74,4 +72,30 @@ EX: C:\Users\Pawankumhar>node
    - npm uninstall <module>
    - npm clean.cache
   - custom
-   - npm init or npm init -y  
+   - npm init or npm init -y
+   - npm install nodemon --g or npm install nodemon --save
+
+ ## EXpress
+ - Express is a minimal and flexible node.js web application framework
+ # Install: 
+ $npm install express --save
+ #Testing
+  1.$node <express_1.js>
+  2.Open browser and navigate to url
+    http://localhost:5000 or CURL -- curl http://localhost:5000
+
+ - var express01 = require('express');
+   var app = express();
+   app.listen(3000);
+## Middle Ware
+   app.use
+
+--> npm install express-generator -g
+--> express <myfirstapp>
+--> cd <myfirstapp>
+--> npm install
+--> npm start
+
+--> node emailer
+--> moduledemo
+--> restapi

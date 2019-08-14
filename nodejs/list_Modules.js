@@ -2,4 +2,6 @@
    To run the file
    >node <example>.js*/
 var builtinmodules = require("builtin-modules");
-console.log(builtinmodules);
+//console.log(builtinmodules);
+var expressa = require('express');
+console.log(expressa);
