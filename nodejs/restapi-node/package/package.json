@@ -1,0 +1,14 @@
+{
+  "name": "notes-node",
+  "version": "1.0.0",
+  "description": "reads, updates, deletes, adds and searches notes to and from file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sivaram",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^11.0.0"
+  }
+}

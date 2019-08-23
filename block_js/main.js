@@ -1,5 +1,4 @@
 const SHA256 = require ("crypto-js/sha256");
-
 class Block
 {
 	constructor (timestamp, data, previousHash=" ")
@@ -66,7 +65,7 @@ class Blockchain
 	
 }
 let savjeecoin = new Blockchain();
-savjeecoin.addBlock(new Block("20/08/2019", {amount : 4}));
+savjeecoin.addBlock(new Block("10/08/2019", {amount : 4}));
 savjeecoin.addBlock(new Block("22/08/2019", {amount : 10}));
 
 console.log(JSON.stringify(savjeecoin, null, 4));

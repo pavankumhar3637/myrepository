@@ -13,7 +13,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "list": "nodemon list_Modules.js",
-    "http-server": "nodemon https1_nodemon.js"
+    "http-server": "nodemon https1_nodemon.js",
+	  "file":"nodemon files.js"
   },
   "keywords": [],
   "author": "",
