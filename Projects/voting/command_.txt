@@ -1,0 +1,95 @@
+    1  apr-get install git
+    2  apt-get install git
+    3  sudo passwd root
+    4  cd usr
+    5  cd /
+    6  cd usr
+    7  cd share/lightdm/lightdm.conf.d
+    8  ls -lrt
+    9  sudo nano 50-disable-log-backup.conf
+   10  ls -lrt
+   11  sudo nano 50-ubuntu.conf
+   12  source ~/.profile -- resets terminal
+   13  exit
+   14  history
+   15  sudo passwd root
+   16  exit
+   17  git clone https://github.com/pavankumhar3637/myrepository.git
+   18  git status
+   19  ls -lrt
+   20  cd myrepository/
+   21  git status
+   22  git config user.email "pavan.cyberdude@gmail.com"
+   23  git config user.name "pavankumhar3637"
+   24  ls -lrt
+   25  cd node.js
+   26  cd nodejs
+   27  ls -lrt
+   28  vi nodejs.md
+   29  sudo -i
+   30  apt-get install curl
+   31  sudo -i
+   32  exit
+   33  sudo -i
+   34  mkdir 
+   35  ls -lrt
+   36  cd Desktop
+   37  cd emurgo
+   38  mkdir emrugo
+   39  mkdir emurgo
+   40  cd emurgo
+   41  npm init
+   42  npm install web3 --save
+   43  npm audit
+   44  npm audit fix
+   45  history
+   46  npm install truffle -g
+   47  npm
+   48  npm install truffle -f 
+   49  truffle --v
+   50  truffle -v
+   51  truffle
+   52  npm install truffle -g
+   53  sudo -i
+   54  exit
+   55  truffle --v
+   56  sudo -i
+   57  exit
+   58  sudo -i
+   59  exit
+   60  sudo -i
+   61  ls -lrt
+   62  vi examples.desktop
+   63  truffle init
+   64  npm install -g builtin-modules --save
+   65  npm init
+   66  npm install -g npm
+   67  npm install -g npm update
+   68  cd Desktop/emurgo
+   69  node --version
+   70  npm --version
+   71  nvm --version
+   72  git clone https://github.com/pavankumhar3637/myrepository.git
+   73  cd myrepository/
+   74  git status
+   75  git config user.email "pavan.cyberdude@gmail.com"
+   76  git config user.name "pavankumhar3637"
+   77  git status
+   78  ls -lrt
+   79  vi notess.md
+   80  ls -lrt
+   81  cd nodejs
+   82  ls -lrt
+   83  vi nodejs.md
+   84  truffle init
+   85  ls -lrt
+   86  atom .
+   87  truffle compile
+   88  npm init
+   89  npm install @truffle/hdwallet-provider
+   90  truffle migrate --kovan --reset
+   91  truffle migrate --network kovan --reset
+   92  solc --v
+   93  which solidity
+   94  which solc
+   95  history > command_$DATE.txt
