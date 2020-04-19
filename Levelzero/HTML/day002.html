@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Day002 example</title>
+    <!--<h1>My example - Header</h1>-->
+</head>
+<body bgcolor="grey">
+    <form action="" method="post">
+        <fieldset>
+            <legend>Enter Movie Details</legend>
+                 <label>Enter Movie Name</label> <input type="text" name="Movie_Name"></br>
+            </br><label>Length in Minutes</label> <input type="number" min='15' max = '180' name="Movie_time" value ="20"></br>
+            </br><label>Year of Release</label> <input type="number" min='1901' max = '2020' name="Movie_year" value = "1920"></br>
+            </br><label>Description</label>
+                 <textarea rows="4" cols="50" name="comment" form="usrform">Enter Desc...</textarea>
+            </br><label>Password</label> <input type="password" name="Movie_password"></br>
+            </br><label>Did you Like the Movie</label>
+                 <label> <input type="radio" name="title" value="yes" checked> Yes </label>
+                 <label> <input type="radio" name="title" value="no"> No </label></br>
+            </br><label>What all you like in the Movie</label>
+            </br><label> <input type="checkbox" checked > I like the Music </label></br>
+            </br><label> <input type="checkbox"> I like the Story </label></br>
+            </br><label> <input type="checkbox"> I didn't like the Movie </label></br>   
+            </br><label>How do you rate the movie</label></br>
+                <select name="rate" id="rate" value="3">
+                    <option>1</option>
+                    <option>2</option>
+                    <option selected="selected">5</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </br>
+            </br><a href = "https://www.youtube.com">  <input type="button" value="Visit Youtube"/></a>
+                 <a href = "https://www.google.co.in"> <input type="button" value="Visit Google" /></a>
+            </br> </br>
+            <button> Submit </button>
+            <button> Cancel </button>
+        </fieldset>           
+      </form>  
+</body>
+</html>
