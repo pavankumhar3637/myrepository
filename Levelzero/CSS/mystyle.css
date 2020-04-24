@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(46, 181, 190);
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+  h2 {
+    color: rgb(128, 0, 21);
+    margin-left: 20px;
+  }
