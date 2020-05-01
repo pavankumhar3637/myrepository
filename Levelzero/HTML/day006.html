@@ -6,28 +6,34 @@
         function myFunction1() 
         {
         alert("on Load triggered!!");
-        document.getElementById("demo").style.color = "red";
+        document.getElementById("demo").style.color = "navy";
+        document.getElementById("demo").style.fontSize = "40px";
         //document.getElementById("demo").innerHTML = "On Load triggered";
         }
 
         function myFunction2() 
         {
-        document.getElementById("demo").style.color = "blue";
-        document.getElementById("demo").innerHTML = "On Click triggered.";
+        document.body.style.background = "cyan";
+        document.getElementById("demo").style.color = "red";
+        document.getElementById("demo").style.fontSize = "60px";
+        //document.body.style.backgroundImage = URL('./images/Autumn.jpeg');
+        document.getElementById("demo").innerHTML = "Click is triggered.";
         } 
 
         function myFunction3() 
         {
-        document.getElementById("demo").style.color = "green";
-        document.getElementById("demo").innerHTML = "On Double Click triggered.";
+        document.body.style.background = "grey";
+        document.getElementById("demo").style.color = "white";
+        document.getElementById("demo").style.fontSize = "80px";
+        document.getElementById("demo").innerHTML = "Double Click is triggered.";
         }                
     </script>
 </head>
 <body onload = "myFunction1()">
     <h1>Day006-Web Page</h1>
     <p id="demo">Welcome to Day006 </p>
-    <button type="button" onclick="myFunction2()">Click it</button>  
+    <button type="button" onclick="myFunction2()">Click ME</button>  
     </br></br>
-    <button type="button" ondblclick="myFunction3()">DoubleClick it</button>
+    <button type="button" ondblclick="myFunction3()">Double Click ME</button>
 </body>
 </html>
