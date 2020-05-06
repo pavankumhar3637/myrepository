@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Day007 example</title>
+    <script>
+        function myFunction001() 
+        {
+            //First method of Object creation
+            var emp ={
+                fn: "Pavan",
+                ln: "Kumar",
+                age: 30,
+                attendance: true,
+            };
+            alert ("Employee Details:\n-Fullname:"+emp.fn+" "+emp.ln+"\n-Age:"+emp.age+"\n-Attendance:"+emp.attendance);
+        }    
+        function myFunction002() 
+        {
+            //second method of Object creation
+            var student = new Object();
+            student.fn = "Nalini";
+            student.ln = "G";
+            student.roll = "0218";
+            //console.log (student);           
+            //window.alert("Student Details\n"+student.fn+" "+student.ln);    
+             document.getElementById("demo").innerHTML = "Student Details   Name:"+student.fn+" "+student.ln+"   RollNo:"+student.roll;
+        }                
+    </script>
+</head>
+<body>
+    <h1>Day007-Web Page</h1>
+    <p id="demo">Welcome to Day007 </p>
+    <button type="button" onclick="myFunction001()">Object-call-001</button> 
+    <button type="button" onclick="myFunction002()">Object-call-002</button>   
+</body>
+</html>
